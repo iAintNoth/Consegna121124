@@ -14,7 +14,7 @@ int main(){
     printf("Inserisci un numero:");
     scanf("%d", &num2);
 
-    media = (float)(num1 + num2) / 2;
+    media = (num1 + num2) / 2;
 
     printf("La media dei due numeri è: %.2f\n", media);
 }
